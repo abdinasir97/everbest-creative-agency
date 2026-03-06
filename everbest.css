@@ -172,12 +172,17 @@ header {
 .info-box .box button {
     padding: 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: aqua;
 
 }
+.info-box .box button:hover  {
+    background-color: blue;
+    color: white;
+}
 
 .prfect {
+    margin-top: 40px;
     height: 438px;
      background: linear-gradient(rgba(0,0,0,0.3), rgba(254, 250, 250, 0.3)),url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-andrea-piacquadio-3779750.jpeg") center/ cover no-repeat;
      display: flex;
@@ -233,6 +238,30 @@ header {
     line-height: 48px;
     font-weight: 400;
 }
+.yoga-boxes button {
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid green;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: #fafaf6;
+}
+.yoga-boxes button:hover {
+    background-color: blue;
+    color: white;
+}
+.footer {
+    background-color: #2a2a2a;
+    color: #fafaf6;
+    padding: 2rem;
+    font-size: 1.2rem;
+
+
+}
+
 
 
 @media(max-width:768px) {
